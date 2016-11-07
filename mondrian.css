@@ -1,0 +1,133 @@
+p{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+}
+/*color de fondo*/
+body, html {
+    background-color: #f6f6f6;
+}
+
+.tercio{
+    width: 33%;
+    padding:0px;
+    margin: 0px;
+    float: left;
+}
+
+.fit{
+    width: 100%;
+}
+
+.left{
+    float: left;
+}
+
+/*es el canvas de la pintura*/
+#painting {
+    background-color: #fff4db;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 1px #8d8d8d;
+    margin-bottom: 200px;
+}
+
+/*esto divide a la página*/
+#toprow {
+    height: 290px;
+}
+#middlerow {
+    height: 10px;
+}
+#bottomrow {
+    height: 100px;
+}
+
+#lefttopcolumn {
+    width: 100px;
+}
+
+#bottomrightcolumn{
+    width: 20px;
+}
+
+#bigbox {
+    height: 290px;
+    width: 290px;
+}
+
+#mediumbox {
+    width: 100px;
+    height: 140px;
+}
+
+#smallbox {
+    width: 100px;
+    height: 100px;
+}
+
+#widebox {
+    width: 260px;
+    height: 100px;
+}
+
+#tinybox {
+    width: 20px;
+    height: 45px;
+}
+
+#divider1 {
+    height: 290px;
+    width: 10px;
+}
+
+#divider2 {
+    height: 10px;
+    width: 100px;
+}
+
+#divider3 {
+    height: 100px;
+    width: 10px;
+}
+
+#divider4 {
+    height: 10px;
+    width: 20px;
+}
+
+/*colores*/
+
+.red {
+    background-color: #cc3333;   
+}
+
+.blue {
+    background-color: #2f7fd8;   
+}
+
+.yellow {
+    background-color: #feda09;   
+}
+
+.black {
+    background-color: #393939;   
+}
+
+.grey{
+    color: grey;
+}
+
+/*posición */
+
+.right {
+    float: right;   
+}
+
+.izq{
+    display: block;
+    margin-left: auto;
+    clear: both;
+    width: 20%;
+    height: 30px;
+}
