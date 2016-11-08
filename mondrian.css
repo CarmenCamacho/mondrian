@@ -1,18 +1,32 @@
-p{
+h2{
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    font-size: 60px;
+    font-size: 30px;
+}
+p{
+    text-align: center;
 }
 /*color de fondo*/
 body, html {
     background-color: #f6f6f6;
 }
 
-.tercio{
+.col-4{
     width: 33%;
     padding:0px;
     margin: 0px;
-    float: left;
+    float:left;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.col-6{
+    width: 44%;
+    margin: 0px;
+    float:left;
+    padding: 0px;
+    box-sizing: border-box;
+
 }
 
 .fit{
@@ -124,10 +138,22 @@ body, html {
     float: right;   
 }
 
-.izq{
-    display: block;
+.text-left{
+     text-align: left;
+
+}
+
+.text-right{
+     text-align: right;
+
+}
+
+.circulo{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: solid black 2px;
+    margin-bottom: 10%;
     margin-left: auto;
-    clear: both;
-    width: 20%;
-    height: 30px;
+    margin-right: auto;
 }
